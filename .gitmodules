@@ -1,0 +1,3 @@
+[submodule ".themes/villainy"]
+	path = .themes/villainy
+	url = git@github.com:Buritica/villainy-octopress-theme.git
