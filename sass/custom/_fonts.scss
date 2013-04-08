@@ -1,1 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Rokkitt|Karla);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,400italic|BenchNine:700|Inconsolata);
+
+$sans: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif !default;
+$serif: "PT Serif", Georgia, Times, "Times New Roman", serif !default;
+$mono: "Inconsolata", "Andale Mono", "lucida console", "Courier New", monospace !default;
+$heading-font-family: "BenchNine", "Helvetica Neue", Arial, sans-serif !default;
+$header-title-font-family: "BenchNine", "Helvetica Neue", Arial, sans-serif !default;
+$header-subtitle-font-family: "BenchNine", "Helvetica Neue", Arial, sans-serif !default;

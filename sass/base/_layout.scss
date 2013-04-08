@@ -13,12 +13,13 @@ body {
 }
 
 #sidebar {
-  width: 27%;
+  width: 25%;
   padding-left: 1.5%;
   min-width: 240px;
   position: fixed;
   min-height: 100%;
   z-index: 1;
+  background: $orange;
 }
 
 aside#logo {
@@ -56,9 +57,8 @@ aside#logo div a {
 
 ul#menu {
   clear: both;
-  margin: 0;
+  margin: 65px 0 0 30px;
   padding: 0;
-  margin-left: 30px;
   width: 75%;
 }
 
@@ -67,12 +67,12 @@ ul#menu li {
   clear: both;
   margin: 0;
   padding: 0;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 
 ul#menu a {
   display: inline-block;
-  font-size: 15px;
+  font-size: 19px;
   line-height: 14px;
   z-index: 999;
   padding: 7px;
@@ -101,50 +101,77 @@ header#sidebar h1#title {
   position: fixed;
   left: 30px;
   bottom: 30px;
-  font-size: 15px;
+  font-size: 12px;
   letter-spacing: 0;
   text-transform: uppercase;
-  font-family: "Rokkitt",serif;
+  font-family: $sans;
   font-weight: 900;
   line-height: 15px;
   padding: 10px;
   height: 30px;
   z-index: 9999;
-  border-radius: 5px;
+  background: none;
+
+  a {
+    color: $light-orange;
+  }
 }
 
 #main {
-  border-left: 1px solid #e3e3e3;
+  // border-left: 1px solid #e3e3e3;
   margin-left: 27%;
   min-height: 900px;
-  min-width: 658px;
+  width: 45%;
   position: relative;
   z-index: 9999;
+
+  h2, p, iframe, div, img, ul, figure {
+    max-width: 100%;
+  }
 }
 
 header#sidebar h1#title a {
-  font-family: sans-serif;
+  font-family: $heading-font-family;
   font-weight: 900;
   font-size: 30px;
   line-height: 30px;
   border: none;
   padding: 0;
   display: block;
-  color: black;
+  color: #fff;
   margin-left: 0;
 }
 
 header#sidebar h2#subtitle {
-  font-weight: 300;
+  font-family: $sans;
+  font-weight: 400;
   font-size: 16px;
   line-height: 23px;
-  color: #585C60;
+  color: #fff;
   -webkit-font-smoothing: antialiased;
   max-width: none;
-  margin-top: 5px;
+  margin-top: -15px;
   margin-bottom: 25px;
 }
 
+header#sidebar .search {
+  border: none;
+  margin: 30px 0 0 30px;
+  font-family: $sans;
+  padding: 5px;
+  width: 157px;
+  font-size: 13px;
+}
+
+header#sidebar {
+  ::-webkit-input-placeholder {
+   color: $orange;
+  }
+
+  :-moz-placeholder {
+     color: $orange;
+  }
+}
 // Large screen
 @media only screen and (min-width: 1300px) {
   #sidebar {
@@ -187,14 +214,7 @@ header#sidebar h2#subtitle {
 
 // Short screen
 @media only screen and (max-height: 650px) {
-  #sidebar {
-    position: absolute;
-  }
 
-  #octopress_linkback {
-    top: 700px;
-    position: absolute;
-  }
 }
 
 // Medium-width screen
@@ -202,12 +222,22 @@ header#sidebar h2#subtitle {
   (device-height: 1024px) and (device-width: 768px) and (orientation: portrait) {
   body { min-width: 0; }
 
-  #sidebar {
+  header#sidebar {
     position: relative;
     width: 100%;
     text-align: center;
     margin: 0;
-    padding: 0;
+    padding: 15px 0;
+    margin-top: -20px;
+
+    h2#subtitle {
+      margin-bottom: 15px;
+    }
+
+    .search {
+      margin-left: 0px;
+      margin-top: 10px;
+    }
   }
 
   aside#logo {
@@ -233,6 +263,7 @@ header#sidebar h2#subtitle {
     clear: none;
     margin: 0;
     margin-bottom: 5px;
+    margin-top: -10px;
   }
 
   ul#menu li.rss {
@@ -244,22 +275,15 @@ header#sidebar h2#subtitle {
     border: none;
     width: 100%;
     min-width: 0;
-    margin-top: 15px;
     overflow: hidden;
   }
 
   section#main article {
     width: auto;
-    padding-left: 0;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 20px;
     overflow: hidden;
   }
 
-  article p, article h2, article h1, article h3, article h4, article h5, article h6 {
-    padding-right: 10px;
-    padding-left: 15px;
-  }
 
   section#main article h2 {
     margin-top: 0;
@@ -271,12 +295,7 @@ header#sidebar h2#subtitle {
     padding-top: 30px;
     padding-bottom: 15px;
     overflow: hidden;
-  }
-
-  article.post figure {
-    padding-right: 10px;
-    padding-left: 15px;
-    width: 90%;
+    max-width: 100%;
   }
 
   aside#octopress_linkback {
@@ -302,13 +321,6 @@ section.comments {
   overflow-x: hidden;
 }
 
-article.post h2, article.post p {
-  max-width: 500px;
-}
-
-article.post figure {
-  max-width: 500px;
-}
 
 // Anchor
 h2.entry-title a.anchor {
