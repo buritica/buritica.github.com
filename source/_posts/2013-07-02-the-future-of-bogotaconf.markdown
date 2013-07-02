@@ -16,11 +16,11 @@ The web development community in Colombia has been growing steadily and BogotaCo
 
 Two years have passed and in order to both keep doing what we set out to do and keep growing we had two alternatives: (1) organize an even larger event like our friends in [Chile][1] or, (2) specialize and hope that other communities organize their own niche conferences and events.
 
-In making our decision, we reflected on our beliefs about what a community should do and provide to its' members. We believe the main role of a local community is promote the personal and professional growth of its members, increase opportunities for members to share knowledge, and provide a healthy environment for experimentation. A perfect example of a community doing just this is the Ruby community in Latin America. In 2012, they had [RailsConfBR][2], [RailsConfUR][3], [RailsConfAR][4], and [MagmaConf][5].
+In making our decision, we reflected on our beliefs about what a community should do and provide to its members. We believe the main role of a local community is to promote the personal and professional growth of its members, increase opportunities for members to share knowledge, and provide a healthy environment for experimentation. A perfect example of a community doing just this is the Ruby community in Latin America. In 2012, they had [RailsConfBR][2], [RailsConfUR][3], [RailsConfAR][4], and [MagmaConf][5].
 
 ## Supporting the growing JS community
 
-Over the past two years the  team at ColombiaJS has been doing some amazing work to promote JS in different cities. Today both[BogotaJS][6] and [MedellínJS][7] have over 550 members each.
+Over the past two years the  team at ColombiaJS has been doing some amazing work to promote JavaScript in different cities. Today both[BogotaJS][6] and [MedellínJS][7] have over 550 members each.
 
 {% img jsconf_logo images/jsconfco.png 200 200 'JSConf Colombia Logo' %}
 
