@@ -20,9 +20,9 @@ In making our decision, we reflected on our beliefs about what a community shoul
 
 ## Supporting the growing JS community
 
-Over the past two years the  team at ColombiaJS has been doing some amazing work to promote JavaScript in different cities. Today both[BogotaJS][6] and [MedellínJS][7] have over 550 members each.
+Over the past two years the  team at ColombiaJS has been doing some amazing work to promote JavaScript in different cities. Today both [BogotaJS][6] and [MedellínJS][7] have over 550 members each.
 
-{% img jsconf_logo images/jsconfco.png 200 200 'JSConf Colombia Logo' %}
+[{% img jsconf_logo images/jsconfco.png 200 200 'JSConf Colombia Logo' %}](http://jsconf.co)
 
 This year, I am proud to announce that we are bringing [JSConf to Colombia][8]. We'll gather for 2 days in [Ruta N][9], Medellín to talk about JavaScript on the server, on the client, and in robots, copters and databases. We'll have more than 20 talks and workshops from national and international speakers and meet to exchange knowledge, ideas and share our passion in developing for the web.
 
