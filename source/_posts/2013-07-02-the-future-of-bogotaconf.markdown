@@ -12,7 +12,7 @@ Two years ago, I set out to organize a world class software engineering conferen
 
 The web development community in Colombia has been growing steadily and BogotaConf has played an important part in providing a space for the professional growth of web developers in the country and acting as a catalyst for multiple new communities.
 
-![BogotaConf 2012](images/bogotaconf_2012.jpg)
+![BogotaConf 2012](/images/bogotaconf_2012.jpg)
 
 Two years have passed and in order to both keep doing what we set out to do and keep growing we had two alternatives: (1) organize an even larger event like our friends in [Chile][1] or, (2) specialize and hope that other communities organize their own niche conferences and events.
 
@@ -22,7 +22,7 @@ In making our decision, we reflected on our beliefs about what a community shoul
 
 Over the past two years the  team at ColombiaJS has been doing some amazing work to promote JavaScript in different cities. Today both [BogotaJS][6] and [MedellínJS][7] have over 550 members each.
 
-[{% img jsconf_logo images/jsconfco.png 200 200 'JSConf Colombia Logo' %}](http://jsconf.co)
+[{% img jsconf_logo /images/jsconfco.png 200 200 'JSConf Colombia Logo' %}](http://jsconf.co)
 
 This year, I am proud to announce that we are bringing [JSConf to Colombia][8]. We'll gather for 2 days in [Ruta N][9], Medellín to talk about JavaScript on the server, on the client, and in robots, copters and databases. We'll have more than 20 talks and workshops from national and international speakers and meet to exchange knowledge, ideas and share our passion in developing for the web.
 
