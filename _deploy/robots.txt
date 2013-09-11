@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://buriti.ca/sitemap.xml 

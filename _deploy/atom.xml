@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Juans and Zeros]]></title>
+  <link href="http://buriti.ca/atom.xml" rel="self"/>
+  <link href="http://buriti.ca/"/>
+  <updated>2013-09-11T03:15:58-05:00</updated>
+  <id>http://buriti.ca/</id>
+  <author>
+    <name><![CDATA[Juan Pablo Buritica]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Future of BogotaConf]]></title>
+    <link href="http://buriti.ca/blog/2013/07/02/the-future-of-bogotaconf/"/>
+    <updated>2013-07-02T00:25:00-05:00</updated>
+    <id>http://buriti.ca/blog/2013/07/02/the-future-of-bogotaconf</id>
+    <content type="html"><![CDATA[<h1>The future of BogotaConf</h1>
+
+<p>Two years ago, I set out to organize a world class software engineering conference in Colombia. In March 2011, BogotaConf was born. Within just two events we had over 20 international speakers from Github, Living Social, Heroku, Bocoup, Opera and many other companies on the frontline of web development as we know it.</p>
+
+<p>The web development community in Colombia has been growing steadily and BogotaConf has played an important part in providing a space for the professional growth of web developers in the country and acting as a catalyst for multiple new communities.</p>
+
+<p><img src="http://buriti.ca/images/bogotaconf_2012.jpg" alt="BogotaConf 2012" /></p>
+
+<p>Two years have passed and in order to both keep doing what we set out to do and keep growing we had two alternatives: (1) organize an even larger event like our friends in <a href="http://startechconf.com/">Chile</a> or, (2) specialize and hope that other communities organize their own niche conferences and events.</p>
+
+<p>In making our decision, we reflected on our beliefs about what a community should do and provide to its members. We believe the main role of a local community is to promote the personal and professional growth of its members, increase opportunities for members to share knowledge, and provide a healthy environment for experimentation. A perfect example of a community doing just this is the Ruby community in Latin America. In 2012, they had <a href="http://www.rubyconf.com.br/">RailsConfBR</a>, <a href="http://rubyconfuruguay.org/" title="http://rubyconfuruguay.org/">RailsConfUR</a>, <a href="http://rubyconfargentina.org/">RailsConfAR</a>, and <a href="http://www.magmaconf.com/">MagmaConf</a>.</p>
+
+<h2>Supporting the growing JS community</h2>
+
+<p>Over the past two years the  team at ColombiaJS has been doing some amazing work to promote JavaScript in different cities. Today both <a href="http://www.meetup.com/BogotaJS/">BogotaJS</a> and <a href="http://www.meetup.com/MedellinJS/">MedellínJS</a> have over 550 members each.</p>
+
+<p><a href="http://jsconf.co"><img class="jsconf_logo" src="http://buriti.ca/images/jsconfco.png" width="200" height="200" title="'JSConf Colombia Logo'" ></a></p>
+
+<p>This year, I am proud to announce that we are bringing <a href="http://jsconf.co">JSConf to Colombia</a>. We&#8217;ll gather for 2 days in <a href="http://www.rutanmedellin.org/">Ruta N</a>, Medellín to talk about JavaScript on the server, on the client, and in robots, copters and databases. We&#8217;ll have more than 20 talks and workshops from national and international speakers and meet to exchange knowledge, ideas and share our passion in developing for the web.</p>
+
+<p>Stay tuned for updates.</p>
+
+<p>Photo Credits: <a href="http://www.flickr.com/photos/sd/">sd</a></p>
+]]></content>
+  </entry>
+  
+</feed>
