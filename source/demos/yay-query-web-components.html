@@ -1,0 +1,69 @@
+<polymer-element name="yay-query">
+
+	<template>
+        <yay-adam width="{{width}}" border="2px solid black"></yay-adam>
+        <yay-rebecca width="{{width}}" border="2px solid black"></yay-rebecca>
+        <yay-alex width="{{width}}" border="2px solid black"></yay-alex>
+        <yay-paul width="{{width}}" border="2px solid black"></yay-paul>
+	</template>
+
+	<script>
+		Polymer('yay-query', {
+			width: '150px'
+		});
+	</script>
+
+</polymer-element>
+
+<polymer-element name="yay-adam" attributes="width, border">
+	<template>
+        <img style="width: {{width}}; border: {{border}}" src="{{img}}"/>
+	</template>
+
+	<script>
+		Polymer('yay-adam', {
+            img: 'http://si0.twimg.com/profile_images/2244358060/twitpic_bowling.jpg',
+        	width: '100px'
+        });
+	</script>
+
+</polymer-element>
+
+<polymer-element name="yay-rebecca" attributes="width, border">
+	<template>
+        <img style="width: {{width}}; border: {{border}}" src="{{img}}"/>
+	</template>
+
+	<script>
+		Polymer('yay-rebecca', {
+            img: 'https://si0.twimg.com/profile_images/1447727594/IMG_8534.jpg',
+        	width: '100px'
+        });
+	</script>
+</polymer-element>
+
+<polymer-element name="yay-alex" attributes="width, border">
+	<template>
+        <img style="width: {{width}}; border: {{border}}" src="{{img}}"/>
+	</template>
+
+	<script>
+		Polymer('yay-alex', {
+            img: 'https://si0.twimg.com/profile_images/378800000335373005/bfe543e85a3f28e646543a14208a865a.jpeg',
+        	width: '100px'
+        });
+	</script>
+</polymer-element>
+
+<polymer-element name="yay-paul" attributes="width, border">
+	<template>
+        <img style="width: {{width}}; border: {{border}}" src="{{img}}"/>
+	</template>
+
+	<script>
+		Polymer('yay-paul', {
+            img: 'https://si0.twimg.com/profile_images/2910976341/7d972c32f3882f715ff84a67685e6acf.jpeg',
+        	width: '100px'
+        });
+	</script>
+</polymer-element>
